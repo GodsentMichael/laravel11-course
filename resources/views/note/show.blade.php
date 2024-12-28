@@ -1,6 +1,6 @@
 <x-layout>
     <div class="show-container">
-        <h1>Note Details DATE GOES HERE</h1>
+        <h1>Note Details {{$note->created_at}}</h1>
         <div class="note-content">
             <p>{{ $note->note }}</p>
         </div>
