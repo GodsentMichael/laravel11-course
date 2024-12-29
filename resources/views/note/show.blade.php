@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <div class="show-container">
         <h1>Note Details {{$note->created_at}}</h1>
         <div class="note-content">
@@ -14,4 +14,4 @@
             <a href="{{ route('note.index') }}" class="btn btn-secondary">Back to Notes</a>
         </div>
     </div>
-</x-layout>
+</x-app-layout>

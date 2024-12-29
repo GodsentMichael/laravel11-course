@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <div class="note-container">
         <!-- Header Section -->
         <div class="notes-header">
@@ -27,4 +27,4 @@
         </div>
         {{ $notes->links() }}
     </div>
-</x-layout>
+</x-app-layout>
